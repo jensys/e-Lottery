@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body 
+    {
+    background:url('lottery1.jpg');
+    background-size: cover;
+    }
+    .login-form{
+    width:100px;
+    top:50%;
+    left: 50%;
+    transform: translate( -50%,  -50%);
+    position:absolute;
+    color:#fff
+    }
+    .login-form h1{
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 40px 0;
+    }
+    .login-form p{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .login-form input{
+        font-size: 16px;
+        width: 200px;
+        padding: 15px 5px;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        height: 20px;
+    }
+    .login-form button{
+        font-size: 18px;
+        width: 150px;
+        font-weight: bold;
+        margin: 30px 0;
+        padding: 100px 50px;
+        
+        border-radius: 20px;
+        border: 0;
+    }
+</style>
+<body>
+          
+        <div class="login-form">
+            <h1>user login form</h1>
+            <form action="login_con.php" method="POST">
+                <p>Email</p>
+                <input type="Email" name="email" placeholder="Enter Email" >
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Password" ><br><br>
+                <p>Bank</p>
+                <input type="Bank" value="Bank"> <br><br>
+            </form>
+            <p>don't have an account create an account</p><a href="registration .html">registration</a>
+        </div>
+</body>
+</html>

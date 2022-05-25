@@ -1,0 +1,8 @@
+main .box .head{
+    background-color: red;
+    color: #fff;
+}
+
+main .box .main .hidden{
+    display: none;
+}
